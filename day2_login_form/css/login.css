@@ -1,0 +1,26 @@
+/* login.css */
+#login {width: 250px; height: 120px; background-color: #777; margin:0 auto;}
+h1,legend{width: 0; height: 0; overflow: hidden;}
+form {width: 220px; height: 75px; padding:20px 15px 5px; }
+fieldset{width:100%; height:50px; background-color:rgba(255,255,255,0.3);}
+.inCode{width: 154px; height: 100%; float: left;}
+.inCode>label,label[for="logIn"]{
+	width: 0; height: 0; overflow: hidden; display: block;
+}
+.inCode>input{width: 154px; height: 22px; border:0; 
+	text-indent:5px;	line-height:22px}
+	#user{margin-bottom:6px;}
+#logIn{width: 56px; height: 50px; background-color: #f06; float: right;
+	cursor: pointer; color:#eee;}
+
+fieldset.checkBox{height: 15px; margin-top: 5px;}
+
+#closeBtn {width:100%; height: 20px; 
+	background-color: #ccc;}
+#closeBtn>button{width:100%; height: 100%; cursor: pointer;
+		text-align: right; padding-right:15px;}
+#closeBtn>button>span{border:5px solid #333; 
+		border-top-color:transparent; 
+		border-right-color:transparent;
+		border-left-color:transparent;
+		line-height:1px;}
