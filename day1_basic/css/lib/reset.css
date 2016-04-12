@@ -1,0 +1,31 @@
+/* reset.css */
+
+*, html,body,h1,h2,h3,h4,h5,h6,p,div,img,dl,dt,dd {margin: 0;
+    padding: 0;border: 0;vertical-align: top;color: #333;}
+ul,ol,li{list-style: none;}
+table,tr,td,th,thead,tbody,tfoot{border:1px solid #777;
+    border-spacing: 0; border-collapse: collapse;}
+a{text-decoration: none; color:#777;}
+a:hover{text-decoration:underline; color:#f06;}
+hr{border-bottom:1px solid #777;}
+a:focus, input, textarea, button, select{outline:1px solid #fa0;}
+input[type="text"], input[type="password"],textarea{
+    border:1px solid #777; box-sizing: border-box; }
+
+/* html5 */
+header, aside, nav, artic, footer, section{ display: block; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
