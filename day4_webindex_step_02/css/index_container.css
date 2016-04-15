@@ -1,0 +1,7 @@
+/*	index_container.css	*/
+/* --- #container -------------------------------------------*/
+#container {width:900px; height: 340px;background-color:#f06;
+	padding:20px 30px;}
+	.content {width: 100%;height:22px; margin-bottom:18px;
+		background-color: #fff;}
+	.con_01 {width: 100%;height:280px;background-color: #aff;}
