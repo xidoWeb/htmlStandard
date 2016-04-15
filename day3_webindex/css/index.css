@@ -1,0 +1,37 @@
+/* index.css */
+
+#wrap {width: 960px; height: 970px; margin: 0 auto;}
+
+/* --- #header -------------------------------------------- */
+#header {width:100%; height: 60px;background-color:#f06;}
+	h1 {width: 150px; height: 60px; float: left;
+		background-color: #575757;}
+	#sitemap {width: 145px; height: 40px; float:right;
+		background-color: #fa0; margin-top: 10px; margin-right:40px;}
+	#gnb {width: 800px; height: 30px; margin-right:10px; float:right;
+		background-color: #fff; margin-top:10px; 
+		border-bottom:1px solid #575757;}
+/* --- #banner ---------------------------------------------*/
+#banner {width:100%; height: 430px;background-color:#ccc;}
+/* --- #container -------------------------------------------*/
+#container {width:900px; height: 340px;background-color:#f06;
+	padding:20px 30px;}
+	.content {width: 100%;height:22px; margin-bottom:18px;
+		background-color: #fff;}
+	.con_01 {width: 100%;height:280px;background-color: #aff;}
+
+/* --- #footer ----------------------------------------------*/
+#footer {width:100%; height: 120px;background-color:#575757;}
+	#footer > h2 {width:80px; height:40px;float:left;
+		margin-left:30px; margin-top:40px;	background-color:#fff}
+	#addBox {width: 446px; height: 76px;float:left;
+		margin-left:90px; margin-top:24px;	background-color:#fff}
+	#etc {width: 135px; height: 100px;float:right; 
+		margin-right:70px;		background-color:#fff}
+
+
+                                                                                                                                                                                                                                                                         
+
+
+
+
