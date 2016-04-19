@@ -37,8 +37,7 @@
 			background-image:url("../img/main/all/header/search_btn.png");
 				background-repeat: no-repeat; cursor: pointer;}
 
-	#gnb {width: 800px; height: 30px; right:10px; top:60px;
-		background-color:rgba(255,255,255,0.5); 
+	#gnb {width: 800px; height: 30px; right:10px; top:60px; z-index:500;
 		border-bottom:1px solid #575757; position: absolute;}
 		#gnb>ul{width: 100%; height: 100%;}
 		#gnb>ul>li{height: 100%; float: left; margin-right:74px;}
