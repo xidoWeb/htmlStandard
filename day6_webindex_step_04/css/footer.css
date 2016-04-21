@@ -14,8 +14,9 @@
 		margin-top:24px;}
 
 	#addBox>ul {width: 100%; height:20px;}
-	#addBox>ul>li {width: 20%; height: 100%;  float: left;}
-	#addBox a {color:#cdcdcd;}
+	#addBox>ul>li {height: 16px;  float: left; border-right:1px solid #aaa;
+				padding:0 5px; margin-top:4px;}
+	#addBox a {color:#fff; margin-top:-4px; display:block;}
 		address {width: 100%; height: 56px; padding-top:10px;}
 		address p{width: 100%; color:#cdcdcd; font-style:normal; 
 			font-size:0.825rem;}
