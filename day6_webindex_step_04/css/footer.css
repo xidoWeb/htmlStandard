@@ -26,6 +26,44 @@
 /* __________________________________  */
 	#etc {width: 135px; height: 100px;float:right; 
 		margin-right:70px;		background-color:#fff}
+		#etc>select{width:100px; height:20px;background-color:#fac;}
+
+		option.family_page{width:100px; height:20px; display: block;
+			background-image: url("../img/main/all/footer/f_family_00.png");
+			background-repeat: no-repeat;}
+
+		option.family_page>span{width: 0; height: 0;display: block;
+			overflow: hidden;}
+		
+		#etc>p{width: 100%; background-color: #0af;}
+		#etc>dl{width:100px; height:20px;background-color:#fac; 
+			position: relative; z-index: 100;}
+
+			#etc>dl>dt{width: 100%; height: 100%; 
+					background-image: url("../img/main/all/footer/f_family_00.png");
+					background-repeat: no-repeat;}
+			#etc>dl>dt>span{width: 0; height: 0;display: block;overflow: hidden;}
+
+			#etc>dl>dd{width: 100%; height: 100%; background-color:#fff; 
+				display: none;}
+			#etc>dl:hover > dd{display: block; }
+				dd.family_page{margin-top:-100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
