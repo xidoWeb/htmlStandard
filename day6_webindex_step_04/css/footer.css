@@ -1,0 +1,9 @@
+/*footer.css*/
+/* --- #footer ----------------------------------------------*/
+#footer {width:100%; height: 120px;background-color:#575757;}
+	#footer > h2 {width:80px; height:40px;float:left;
+		margin-left:30px; margin-top:40px;	background-color:#fff}
+	#addBox {width: 446px; height: 76px;float:left;
+		margin-left:90px; margin-top:24px;	background-color:#fff}
+	#etc {width: 135px; height: 100px;float:right; 
+		margin-right:70px;		background-color:#fff}
