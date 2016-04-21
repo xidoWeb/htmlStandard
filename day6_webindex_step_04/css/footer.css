@@ -1,9 +1,30 @@
-/*footer.css*/
-/* --- #footer ----------------------------------------------*/
+/*f ooter.css */
 #footer {width:100%; height: 120px;background-color:#575757;}
-	#footer > h2 {width:80px; height:40px;float:left;
-		margin-left:30px; margin-top:40px;	background-color:#fff}
-	#addBox {width: 446px; height: 76px;float:left;
-		margin-left:90px; margin-top:24px;	background-color:#fff}
+	#footer > h2 {width:100px; height:40px;float:left;
+		margin-left:30px; margin-top:40px;}
+	.h1_in_01{width: 80px; height: 25px; display: block; overflow: hidden; 
+			text-indent:-100em; margin-left: 10px; 
+			background-image: url("../img/main/all/footer/h2_logo.png");}
+	.h1_in_02{width: 100%; height:15px; display: block; line-height:15px;
+		font-size:0.5em;color:#cdcdcd; letter-spacing:-0.06rem; 
+		font-weight: normal; text-align: center;}
+		/* 가독성이 낮은 텍스트는 사용을하면 안된다!! */
+/* __ #addBox ________________________________ */
+	#addBox {width:446px; height:80px; float:left; margin-left:70px; 
+		margin-top:24px;}
+
+	#addBox>ul {width: 100%; height:20px;}
+	#addBox>ul>li {width: 20%; height: 100%;  float: left;}
+	#addBox a {color:#cdcdcd;}
+		address {width: 100%; height: 56px; padding-top:10px;}
+		address p{width: 100%; color:#cdcdcd; font-style:normal; 
+			font-size:0.825rem;}
+		address .add_01 {height:35px; line-height:1.1;}
+		address .add_02 {height:20px; line-height:1.25;}
+
+/* __________________________________  */
 	#etc {width: 135px; height: 100px;float:right; 
 		margin-right:70px;		background-color:#fff}
+
+
+
