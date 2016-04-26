@@ -1,0 +1,69 @@
+/*f ooter.css */
+#footer {width:100%; height: 120px;background-color:#575757;}
+	#footer > h2 {width:100px; height:40px;float:left;
+		margin-left:30px; margin-top:40px;}
+	.h1_in_01{width: 80px; height: 25px; display: block; overflow: hidden; 
+			text-indent:-100em; margin-left: 10px; 
+			background-image: url("../img/main/all/footer/h2_logo.png");}
+	.h1_in_02{width: 100%; height:15px; display: block; line-height:15px;
+		font-size:0.5em;color:#cdcdcd; letter-spacing:-0.06rem; 
+		font-weight: normal; text-align: center;}
+		/* 가독성이 낮은 텍스트는 사용을하면 안된다!! */
+/* __ #addBox ________________________________ */
+	#addBox {width:446px; height:80px; float:left; margin-left:70px; 
+		margin-top:24px;}
+
+	#addBox>ul {width: 100%; height:20px;}
+	#addBox>ul>li {height: 16px;  float: left; border-right:1px solid #aaa;
+				padding:0 5px; margin-top:4px;}
+	#addBox a {color:#fff; margin-top:-4px; display:block;}
+		address {width: 100%; height: 56px; padding-top:10px;}
+		address p{width: 100%; color:#cdcdcd; font-style:normal; 
+			font-size:0.825rem;}
+		address .add_01 {height:35px; line-height:1.1;}
+		address .add_02 {height:20px; line-height:1.25;}
+
+/* __________________________________  */
+	#etc {width: 135px; height: 100px;float:right; 
+		margin-right:70px;		background-color:#fff}
+		#etc>select{width:100px; height:20px;background-color:#fac;}
+
+		option.family_page{width:100px; height:20px; display: block;
+			background-image: url("../img/main/all/footer/f_family_00.png");
+			background-repeat: no-repeat;}
+
+		option.family_page>span{width: 0; height: 0;display: block;
+			overflow: hidden;}
+		
+		#etc>p{width: 100%; background-color: #0af;}
+		#etc>dl{width:100px; height:20px;background-color:#fac; 
+			position: relative; z-index: 100;}
+
+			#etc>dl>dt{width: 100%; height: 100%; 
+					background-image: url("../img/main/all/footer/f_family_00.png");
+					background-repeat: no-repeat;}
+			#etc>dl>dt>span{width: 0; height: 0;display: block;overflow: hidden;}
+
+			#etc>dl>dd{width: 100%; height: 100%; background-color:#fff; 
+				display: none;}
+			#etc>dl:hover > dd{display: block; }
+				dd.family_page{margin-top:-100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

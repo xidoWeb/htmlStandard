@@ -1,0 +1,75 @@
+/* index_banner.css */
+
+/* --- #banner ---------------------------------------------*/
+#banner {width:100%; height: 430px;background-color:#ccc; 
+	overflow: hidden; position: relative; z-index:100;}
+/* button 설정 */
+.btn{width:60px; height:82px; 
+	position: absolute; top:50%; margin-top:-40px; margin:0 10px;}
+.btn_01{left:0;}
+.btn_02{right:0;}
+
+.btn>button{width: 100%; height: 100%; cursor:pointer;
+	background-color:transparent; 
+	background-repeat:no-repeat;
+	background-position: center;}
+.btn_01>button{
+	background-image:url("../img/main/main/banner/left_btn.png");}
+.btn_02>button{
+	background-image:url("../img/main/main/banner/right_btn.png");}
+.btn_01>button:hover{
+	background-image:url("../img/main/main/banner/left_btn_on.png");}
+.btn_02>button:hover{
+	background-image:url("../img/main/main/banner/right_btn_on.png");}
+
+.btn>button>span{width: 0; height: 0; display: block; 
+	overflow: hidden;}
+
+/* banner_nav 설정*/
+input[name="bNav"]{display: none;}
+#banner>ol{width: 45px; height: 12px;
+	position: absolute; right: 90px; bottom: 30px;}
+#banner>ol>li{width:12px; height: 12px; margin-right:3px;
+	background-color: #f06; float: left; 
+	border-radius:100%; overflow: hidden;
+	box-shadow:1px 1px 1px #333;}
+#banner>ol>li span{width: 0;height: 0; display: block; overflow: hidden;}
+#banner>ol>li>label{width: 100%; height: 100%; display: block; cursor: pointer;}
+.b_nav_01{}
+.b_nav_02{}
+.b_nav_03{}
+
+/* radio선택시!!! */
+#bNav_01:checked ~ ol>li.b_nav_01>label{background-color:#0af;}
+#bNav_02:checked ~ ol>li.b_nav_02>label{background-color:#0af;}
+#bNav_03:checked ~ ol>li.b_nav_03>label{background-color:#0af;}
+#bNav_01:checked ~ ul>li.banner_img_01{margin-left:33.333333%;}
+#bNav_02:checked ~ ul>li.banner_img_01{margin-left:0;}
+#bNav_03:checked ~ ul>li.banner_img_01{margin-left:-33.333333%;}
+
+
+/* 광고 배너 설정 */
+#banner>ul{width:300%; height: 100%; margin-left:-100%;
+	background-color: #0af;}
+#banner>ul>li{width:33.333333%; height:100%; float: left;
+	text-align: center; line-height: 430px; font-size: 3em;
+	background-repeat:no-repeat; background-position:center;
+	transition:all 1s ease;
+	}
+.banner_img_01{background-color:#fac;}
+.banner_img_02{
+	background-image: url("../img/main/main/banner/banner_01.jpg");}
+.banner_img_03{background-color:#aaf;}
+
+
+.btn_01:hover ~ ul>li.banner_img_01{margin-left:33.333333%;}
+.btn_02:hover ~ ul>li.banner_img_01{margin-left:-33.333333%;}
+
+
+
+
+
+
+
+
+
