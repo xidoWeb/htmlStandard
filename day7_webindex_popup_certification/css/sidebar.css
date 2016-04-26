@@ -1,0 +1,50 @@
+/* sidebar.css */
+#sideBox {width:122px; min-height:80px; height:auto; 
+	background-color: #ddd; padding:0 5px;}
+ .favLink {width: 100%; height:auto; margin-bottom:5px;
+	 background-color: #add;}
+		.fav_1{width: 100%; height:15px; 
+					background-image: url("../img/side_bar/top_bg_01.png");
+					background-repeat:no-repeat;}
+		.fav_2{width:52px; height:16px; padding:0 35px 10px;}
+		.favPatt{background-image: url("../img/side_bar/top_bg_02.png");
+						background-repeat:repeat-y;}
+		.fav_2>h1{width:100%; height:100%; background-repeat:no-repeat;
+						background-image:url("../img/side_bar/logo.png");}
+
+		.fav_3{ /* width:calc(100% + 10px); */
+					width:80px; height:32px; margin-left: -5px; padding:7px 26px;
+					background-image: url("../img/side_bar/tie_bg_pat.jpg");
+					background-repeat:repeat-x;}
+		.fav_3>h2{width:100%; height:100%; background-repeat:no-repeat;
+						background-image:url("../img/side_bar/program_name.png");}
+
+		.fav_4{width:92px; height:auto; padding:10px 15px 5px;}
+		.fav_4::after{content:""; display: block; clear: both;}
+			.fav_4>ol{height:auto; float: left;}
+			.subj_1{width:10px;}
+			.subj_2{width:76px; margin-left:4px;}
+			.subj_1>li{background-repeat:no-repeat;
+				background-image: url("../img/side_bar/fixed_program_icon.png");}
+			.fav_4>ol>li{width: 100%; height: 12px; margin-bottom:6px;}
+			.fav_4>ol>li>a{ background-repeat:no-repeat;
+				background-image: url("../img/side_bar/fixed_bar_list.png"); }
+			.fav_4>ol>li>a:hover{
+				background-image: url("../img/side_bar/fixed_bar_list_on.png");}
+				.subj_pr_1{}
+				.subj_pr_2{background-position: 0 -18px;}
+				.subj_pr_3{background-position: 0 -53px;}
+
+
+
+
+		.fav_5{width: 100%; height:15px; 
+					background-image: url("../img/side_bar/top_bg_03.png");
+					background-repeat:no-repeat;}
+
+ .subLink {width: 100%; height:75px; background-color: #f06;}
+
+
+
+
+
