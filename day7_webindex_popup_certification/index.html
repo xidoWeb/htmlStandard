@@ -11,10 +11,27 @@
 	<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" />
 	<!--[if lte IE 9]><![endif]-->
 	<title>Document</title>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<style></style>
-	<script></script>
+	<script>
+		$(document).ready(function(){
+//			 document.getElementById("popupMessage")
+			$("#popupMessage > button").on("click", function(){
+//				$("#popupBox").css({"display":"none"});
+				$("#popupBox").fadeOut(1000);
+			})
+		});
+//		tryhelloworld.co.kr: 자바스크립트 강의 페이지
+	</script>
 </head>
 <body>
+	<div id="popupBox">
+		<div id="popupMessage">
+			<h2>이벤트 메세지 팝업 내용</h2>
+			<button><span>팝업 닫기</span></button>
+		</div>
+	</div><!--// #popupBox-->
+	
 	<div id="wrap">
 		<div id="header">
 			<h1 title="Xido Web"><a href="index.html"><span>xido웹</span></a></h1>

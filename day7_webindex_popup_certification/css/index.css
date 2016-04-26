@@ -1,4 +1,6 @@
 /* index.css */
+
+@import url("./popup.css");
 @import url("./header.css");
 @import url("./index_banner.css");
 @import url("./index_container.css");
