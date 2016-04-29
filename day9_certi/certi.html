@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="./css/lib/normalize.css" />
+	<link rel="stylesheet" href="./css/certi.css" />
+	<title>Document</title>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>본인 인증 서비스</h1>
+			</div><!--// #header-->
+			
+			<div id="content">
+				<h2>휴대폰인증</h2>
+				<p>입력하시는 내용은 모두 정보화처리됩니다.<br />
+				별도의 비용이 발생하지 않습니다.</p>
+				
+				<form action="" method="post">
+					<fieldset class="tel_number">
+						<legend>연락처 및 통신사 확인</legend>
+						<dl class="number_check">
+							<dt>
+								<label for="numFirst">
+									<span class="hidden">휴대하고 계신</span>
+									휴대폰 번호 
+									<span class="hidden">앞자리 번호를 선택하세요.</span>
+								</label>
+							</dt>
+							<dd>
+								<select id="numFirst" name="numFirst">
+									<option value="010">010</option>
+									<option value="011">011</option>
+									<option value="016">016</option>
+									<option value="017">017</option>
+									<option value="018">018</option>
+									<option value="019">019</option>
+								</select>
+							</dd>
+							<dd>
+								<input type="text" name="numMid" id="numMid" value="" maxlength="4" />
+								<label for="numMid" class="hidden">
+									휴대폰번호 가운데 셋 또는 네자리를 입력하세요.
+								</label>
+							</dd>
+							<dd>
+								<input type="text" name="numLast" id="numLast" value=""  maxlength="4" />
+								<label for="numLast" class="hidden">
+									휴대폰번호 마지막 네자리를 입력하세요.
+								</label>
+							</dd>
+						</dl>
+						<dl class="telecom_company">
+							<dt>
+								<label for="sk">이동통신사 
+									<span class="hidden">를 선택하세요</span>
+								</label>
+							</dt>
+							<dd>
+								<input type="radio" name="telecom" id="sk" value="">
+								<label for="sk">SK</label>
+							</dd>
+							<dd>
+								<input type="radio" name="telecom" id="kt" value="">
+								<label for="kt">KT</label>
+							</dd>
+							<dd>
+								<input type="radio" name="telecom" id="lg" value="">
+								<label for="lg">LG+</label>
+							</dd>
+						</dl>
+					</fieldset>
+					<fieldset class="check_send">
+						<legend>내용 체크 및 확인</legend>
+						<div class="check_box">
+							<input type="checkbox" name="check" id="check" value="회원가입 동의" />
+							<label for="check">개인정보 제공 및 활용에 동의 합니다.</label>
+						</div><!--// .check_box-->
+						<button type="submit">확인</button>
+						<button type="reset">취소</button>
+					</fieldset>
+				</form>
+			</div><!--// #content-->		
+	</div><!--// #container-->
+</body>
+</html>
+
+
+
+
+
+

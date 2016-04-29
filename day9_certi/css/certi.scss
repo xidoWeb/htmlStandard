@@ -1,0 +1,69 @@
+// certi.scss 
+@import "base";
+
+// --------------------------------------------------------------
+
+#container{width: 450px; height: 365px; margin: 0 auto;
+	#header{width:374px; height:20px; padding:28px 38px 24px; background-color:$main;
+		>h1{width: 100%; height: 100px; font-size:1.25em; line-height:1.25em; color:$white; font-weight:bold;}
+	}// #header
+	
+	#content{width:374px; height:256px; padding:18px 38px; background-color:$white;
+		>h2{width: 94px; height: 21px; margin-left:10px; font-size:1em;}
+		>p{width: 278px; height: 33px; margin-left:10px; margin-top:3px; font-size:0.75rem;}
+		
+		>form{width: 100%; height: 187px; margin-top: 12px;
+			>fieldset{width: 100%; 
+				&.tel_number{height:96px;  background-color:$lightGray;} // form>fieldset.tel_number{}
+				&.check_send{height:92px;} // form>fieldset.tel_send{}
+			}// fieldset
+		}// form		
+	}// #content
+}// #container
+
+
+// form영역내 연락처 정리
+.tel_number{
+	>dl{width:356px; padding:0 9px; height:16px;
+		&.number_check{margin-top: 23px;}
+		&.telecom_company{margin-top: 18px;}
+		>dt{width: 70px; height: 100%; margin-right: 10px; float: left;
+			>label{width: 100%; height: 100%; line-height:0.75em; font-size:0.75em;}
+		}// dt
+		>dd{width: 76px; height: 100%; float: left; margin-right: 8px;
+			>select{width: 100%;height: 100%; border:$line;}
+			>input[type="text"]{width: 76px; height:16px; text-indent:0.3em; line-height:14px;}
+			>input[type="radio"]{margin:3px;
+				&+label{font-size:.75em;}
+			}// type="radio"
+				
+		}// dd
+	}// dl	
+}// .tel_number
+
+
+
+
+
+// form영역내 동의 체크 및 확인버튼
+.check_send{width: 100%; height: auto; padding-top: 13px;
+	>.check_box {width: 100%; height: 26px; padding-left:10px; 
+						margin-bottom:12px; border-bottom:$line;
+		>#check {margin:3px; margin-left:0;}
+		>label {font-size:0.75rem; color:$darkGray;}
+		}// .check_send
+	button {width: 70px; height: 40px; cursor:pointer; 
+					font-size:1.25em; letter-spacing:0.3em; color:$white; font-weight: bold;
+		&[type="submit"]{float: left; margin-left:90px; background-color:$main;}
+		&[type="reset"]{float: right; margin-right:90px; background-color:$darkGray;}
+	}// button
+	
+}
+
+
+
+
+
+
+
+

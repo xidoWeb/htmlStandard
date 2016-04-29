@@ -1,0 +1,35 @@
+@import "box";
+/* 주석 작성시 css로 같이 변환 */
+// css변환되지 않는다 
+$box : #186; 
+
+body{background-color:$box;}
+ul>li{color:$box;}
+
+#wrap{}
+#wrap>#header{}
+#wrap>#header>h1{}
+#wrap>#header>h1>a{}
+#wrap>#header>h1>a>span{}
+
+#wrap{width: 100px; height: 100px;
+	>#header{width: 100px;
+		>h1{width: 100px;
+			>a{display: block;
+				>span{width: 0;height: 0;}
+			}
+		}
+	}// #header
+}//#wrap
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* line 4, D:/web/webstandard/day9_certi/scss/_box.scss */
+#wrap111 {
+  color: #acc; }
+
+/* 주석 작성시 css로 같이 변환 */
+/* line 6, D:/web/webstandard/day9_certi/scss/test.scss */
+body {
+  background-color: #186; }
+
+/* line 7, D:/web/webstandard/day9_certi/scss/test.scss */
+ul > li {
+  color: #186; }
+
+/* line 15, D:/web/webstandard/day9_certi/scss/test.scss */
+#wrap {
+  width: 100px;
+  height: 100px; }
+  /* line 16, D:/web/webstandard/day9_certi/scss/test.scss */
+  #wrap > #header {
+    width: 100px; }
+    /* line 17, D:/web/webstandard/day9_certi/scss/test.scss */
+    #wrap > #header > h1 {
+      width: 100px; }
+      /* line 18, D:/web/webstandard/day9_certi/scss/test.scss */
+      #wrap > #header > h1 > a {
+        display: block; }
+        /* line 19, D:/web/webstandard/day9_certi/scss/test.scss */
+        #wrap > #header > h1 > a > span {
+          width: 0;
+          height: 0; }
+
+/*# sourceMappingURL=test.css.map */
