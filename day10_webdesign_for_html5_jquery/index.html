@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--    <link rel="stylesheet" href="./css/lib/normalize.css">-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <script src="js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery/jquery-migrate-1.4.0.min.js"></script>
+    <script src="js/jquery/jquery-ui.min.js"></script>
+    <!--[if lte IE 9]>
+        <script src="lte_ie9/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">IE7_PNG_SUFFIX=".png";</script> 
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0; border: 0; vertical-align: top;}
+        div{width: 100px; height: 100px; background-color: #acc;}
+        #wrap{}
+/*        .box{width: 50px; height: 30px; */
+/*						border-left: 10px; background-color: #f80;}*/
+    </style>
+    <script>
+     $(document).ready(function(){
+            document.getElementsByTagName("div");
+            document.getElementById("wrap");
+            document.getElementsByClassName("box");
+            document.querySelector("div");
+            document.querySelector("#wrap");
+            document.querySelector(".box");
+            
+        $("div").css({'width': 200 + 'px', 
+											'height': 500 + 'px', 
+											'background-color': '#fc0'});
+    		$('.box').css({	'width':50+'px',
+												"height":30+'px',
+												"border-left":10+'px '+'solid '+'#07f',
+												"background-color":'#f80'});
+				 
+			function box(){
+						$('.test').css({'width':'100px', 'height':'100px', 'background':"#0af"});
+				};
+			box();
+			var	box2 = function(){}; 
+				 
+     });
+    </script>
+</head>
+<body>
+   <div id="wrap">
+       <ul class="box"></ul>
+       <div class="test"></div>
+   </div>
+<!--
+   <script>
+			var box = document.getElementsByClassName("box");
+				  box[0].style.backgroundColor = "red";
+				  box[0].style.width = "500px";
+				  box[0].style.height = "200px";
+	 </script>
+-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
